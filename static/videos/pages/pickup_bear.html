@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners -->
+    <meta name="description" content="DemoDiffusion">
+    <meta property="og:title" content="DemoDiffusion" />
+    <meta property="og:description" content="DemoDiffusion" />
+    <meta property="og:url" content="https://demodiffusion.github.io/" />
+    <!-- <meta property="og:image" content="../../../static/image/teaser.png" /> -->
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="650" />
+    <meta name="description"
+      content="We present DemoDiffusion: a simple and scalable method for enabling robots to perform manipulation tasks 
+      by imitating a single human demonstration. DemoDiffusion refines a re-targeted human demonstration trajectory using 
+      a pre-trained generalist diffusion policy, efficiently bridging the embodiment gap  and enabling the robot to succeed 
+      even on tasks where the pre-trained generalist policy fails entirely..">
+  
+    <meta name="keywords" content="Imitation Learning, Robot Learning, Human Data"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy</title>
+
+    <!-- <meta name="twitter:title" content="DexUMI">
+    <meta name="twitter:description" content="DexUMI">
+    <meta name="twitter:image" content="static/images/teaser.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="DexUMI, Manipulation, Robotics">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation</title>
+    <link rel="icon" type="image/x-icon" href="../../../static/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="../../../static/css/bulma.min.css">
+    <link rel="stylesheet" href="../../../static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="../../../static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="../../../static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="../../../static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-3 section-title"> Pick-up Bear Evaluation Videos
+                            <h5 class="subtitle">We evaluated 10 rollouts, here we show the remaining 9 rollouts.
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Video Row 1 -->
+            <div class="row">                
+                <div class="columns">
+                    <div class="column">
+                      <h4 class="title is-5 has-text-centered">Pi-0</h4>
+                      <video  controls autoplay muted loop playsinline width="100%">
+                        <source src="./bear_pi0.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
+                      <video  controls autoplay muted loop playsinline width="100%">
+                        <source src="./bear_kinematic.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="column">
+                      <h4 class="title is-5 has-text-centered">
+                        <span style="color:#f16a6a">DemoDiffusion</span>
+                      </h4>
+        
+                      <video  controls autoplay muted loop playsinline width="100%">
+                        <source src="./bear_ours.mp4" type="video/mp4">
+                      </video>
+                    </div>
+            </div>
+
+            <!-- Back Button -->
+            <div class="back-button">
+                <a href="../../../index.html" class="button is-small">
+                    <span class="icon">
+                        <i class="fas fa-arrow-left"></i>
+                    </span>
+                    <span>Back to Main Page</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            This page was built using the <a
+                                href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                                target="_blank">Academic
+                                Project Page Template</a> which was adopted from the <a
+                                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                            This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

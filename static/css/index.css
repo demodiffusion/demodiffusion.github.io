@@ -67,11 +67,8 @@ body {
     font-weight: bolder;
 }
 
-.publication-authors {
-}
-
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+   color: hsl(38, 100%, 3%) !important;
 }
 
 .publication-authors a:hover {
@@ -86,7 +83,7 @@ body {
 }
 
 .publication-authors {
-  /*color: #4286f4;*/
+  color: #000000;
 }
 
 .publication-video {
@@ -117,7 +114,9 @@ body {
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
-  padding: 20px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
   font-size: 0;
 }
 
@@ -125,13 +124,54 @@ body {
   margin: 0;
 }
 
-.slider-pagination .slider-page {
-  background: #000000;
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
 }
 
-.eql-cntrb { 
-  font-size: smaller;
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
 }
 
+.interpolation-video-column {
+}
 
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper {
+  width: 100%;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
+/* #aria-video-tabs li a:hover {
+  color: #ffa704 !important;  /* Set to your desired hover color */
+
+
+#demodiffusion-video-tabs li.is-active a {
+  color: #ffab04 !important;
+  font-weight: bold;
+}
+
+.video-content {
+  display: none;
+} 
+
+.video-content.is-active {
+  display: block;
+} 
+
+
+.tr-thick-top{
+  border-top: 2px solid #858181;
+}
 
