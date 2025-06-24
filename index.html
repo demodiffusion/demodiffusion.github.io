@@ -112,20 +112,11 @@
                 </a>
               </span>
 
-              <!-- Video -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/vliu15/egozero"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fab fa-youtube"></i></span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-
               <!-- Code -->
               <span class="link-block">
-                <a class="external-link button is-normal is-rounded is-dark">
+                <a href="https://github.com/demodiffusion/demodiffusion" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>Code (coming soon)</span>
+                  <span>Code</span>
                 </a>
               </span>
             </div>
@@ -141,16 +132,14 @@
 <!-- TODO: Teaser -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- <video class="large-video" controls loop playsinline height="100%">
-        <source src="./static/videos/demo.mp4"
-                type="video/mp4">
-      </video> -->
-      <!-- If it is image
-        <img src="static/images/teaser.jpg" alt="MY ALT TEXT"/>
-      -->
+    <div class="hero-body is-centered">
+      <video poster="" id="teaser" autoplay controls muted loop width="100%">
+        <!-- Your video here -->
+        <source src="static/videos/main/teaser.mp4"
+
+        type="video/mp4">
+      </video>
       <!-- <img src="static/images/teaser.jpg" alt="MY ALT TEXT"/> -->
-      <img src="static/images/teaser_v4.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         <!-- We present <strong>DemoDiffusion</strong>: a simple and scalable method for enabling robots to perform manipulation tasks by imitating a single human demonstration. <strong>DemoDiffusion</strong> refines a re-targeted human demonstration trajectory using a <strong>pre-trained generalist diffusion policy</strong>, efficiently bridging the embodiment gap and enabling the robot to succeed even on tasks where the pre-trained generalist policy fails entirely. -->
         We present <strong>DemoDiffusion</strong>: a simple and scalable method for enabling robots to perform manipulation tasks by imitating a single human demonstration, <strong>without</strong> requiring any paired human-robot data. <strong>DemoDiffusion</strong> refines a re-targeted human demonstration trajectory using a <strong>pre-trained generalist diffusion policy</strong>, efficiently bridging the embodiment gap and enabling the robot to succeed even on tasks where the pre-trained generalist policy fails entirely.
