@@ -73,19 +73,19 @@
           </h1>
 
           <!-- Conference -->
-          <h2 class="title is-4">
-            <a href="https://2026.ieee-icra.org" class="conference"><span style="color:#2980b9"> 
-              International Conference on Robotics and Automation (<span class="grad_text">ICRA</span>) 2026</span>
+          <!-- <h2 class="title is-4">
+            <a href="https://corl2025.org" class="conference"><span style="color:#ff9d0b"> 
+              Conference on Robot Learning (<span class="grad_text">CoRL</span>) 2025</span>
             </a>
-          </h2>
+          </h2> -->
 
           <!-- Authors -->
-          <div class="is-size-4 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block" style="margin-right: 1rem;"><a href="https://rureadyo.github.io/" style="color: #2980b9 !important;">Sungjae Park</a></span>
             <span class="author-block" style="margin-right: 1rem;"><a href="https://homangab.github.io/" style="color: #2980b9 !important;">Homanga Bharadhwaj</a></span>
             <span class="author-block" style="margin-right: 1rem;"><a href="https://shubhtuls.github.io/" style="color: #2980b9 !important;">Shubham Tulsiani</a></span>
           </div>
-          <div class="is-size-4 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block" style="margin-right: 1rem;">Carnegie Mellon University</span>
             <!-- <span class="author-block"><sup>2</sup>UC Berkeley</span>
             <span class="author-block"><sup>3</sup>New York University Shanghai</span>
@@ -135,9 +135,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body is-centered">
-      <video poster="" id="teaser" controls muted loop width="100%" preload="metadata" autoplay>
+      <video poster="" id="teaser" controls muted loop width="100%" preload="metadata">
         <!-- Your video here -->
-        <source src="static/videos/main/teaser_optimized.mp4"
+        <source src="static/videos/main/teaser.mp4"
 
         type="video/mp4">
       </video>
@@ -233,7 +233,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Human Demonstration</h4>
                 <video  controls muted loop playsinline width="100%" preload="none" data-lazy="true">
-                  <source src="./static/videos/main/demo/bowl_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/demo/bowl.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -242,7 +242,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bowl_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bowl_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -253,7 +253,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Human Demonstration</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/demo/bear_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/demo/bear.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -262,7 +262,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bear_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bear_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -317,7 +317,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Human Demonstration</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/demo/iron_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/demo/iron.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -338,7 +338,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Human Demonstration</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/demo/wiping_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/demo/wiping.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -347,7 +347,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/wiping_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/wiping_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -368,7 +368,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/microwave_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/microwave_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
 
@@ -382,7 +382,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Human Demonstration</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/demo/basket_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/demo/basket.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -423,7 +423,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Pi-0</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bowl_qual_pi_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bowl_qual_pi_2x.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -438,7 +438,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bowl_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bowl_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -540,7 +540,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/microwave_qual_kinematic_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/microwave_qual_kinematic_2x.mp4" type="video/mp4">
                 </video>
               </div>
               
@@ -550,7 +550,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/microwave_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/microwave_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -572,7 +572,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Pi-0</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/iron_qual_pi_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/iron_qual_pi_2x.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
@@ -610,13 +610,13 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Pi-0</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/wiping_qual_pi_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/wiping_qual_pi_2x.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/wiping_qual_kinematic_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/wiping_qual_kinematic_2x.mp4" type="video/mp4">
                 </video>
               </div>
               
@@ -626,7 +626,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/wiping_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/wiping_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -648,13 +648,13 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Pi-0</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/banana_qual_pi_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/banana_qual_pi_2x.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/banana_qual_kinematic_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/banana_qual_kinematic_2x.mp4" type="video/mp4">
                 </video>
               </div>
               
@@ -692,7 +692,7 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bear_qual_kinematic_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bear_qual_kinematic_2x.mp4" type="video/mp4">
                 </video>
               </div>
               
@@ -702,7 +702,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/main/bear_qual_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/main/bear_qual_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -794,7 +794,7 @@
               </h4>
 
               <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                <source src="./static/videos/generalization/bowl_generalization_ours_0.4_2x_optimized.mp4" type="video/mp4">
+                <source src="./static/videos/generalization/bowl_generalization_ours_0.4_2x.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -805,13 +805,13 @@
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Pi-0</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/generalization/wiping_generalization_pi_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/generalization/wiping_generalization_pi_2x.mp4" type="video/mp4">
                 </video>
               </div>
               <div class="column">
                 <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/generalization/wiping_generalization_kinematic_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/generalization/wiping_generalization_kinematic_2x.mp4" type="video/mp4">
                 </video>
               </div>
               
@@ -821,7 +821,7 @@
                 </h4>
   
                 <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                  <source src="./static/videos/generalization/wiping_generalization_ours_2x_optimized.mp4" type="video/mp4">
+                  <source src="./static/videos/generalization/wiping_generalization_ours_2x.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -839,7 +839,7 @@
                 <div class="column">
                   <h4 class="title is-5 has-text-centered">Kinematic Retargeting</h4>
                   <video  controls muted preload="none" data-lazy="true" loop playsinline width="100%">
-                    <source src="./static/videos/generalization/basket_generalization_kinematic_2x_optimized.mp4" type="video/mp4">
+                    <source src="./static/videos/generalization/basket_generalization_kinematic_2x.mp4" type="video/mp4">
                   </video>
                 </div>
                 
