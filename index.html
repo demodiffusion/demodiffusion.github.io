@@ -162,7 +162,7 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Overview</h2>
         <div class="is-vcentered">
-          <video poster="" id="overview-video" controls muted loop width="100%" preload="metadata">
+          <video poster="" id="overview-video" controls muted loop width="100%" preload="metadata" autoplay>
             <!-- Your video here -->
             <source src="static/videos/demodiffusion_intuition.mp4"
     
@@ -871,7 +871,7 @@
       <h3 class="title is-4">4. Detailed Results for Hand Reconstruction and Robot Execution</h3>
       <div class="item has-text-centered">
         <!-- Your image here -->
-        <video poster="" id="tree"  controls muted loop width="75%" preload="metadata">
+        <video poster="" id="tree"  controls muted loop width="75%" preload="metadata" autoplay>
           <!-- Your video here -->
           <source src="static/videos/main/basket_detail_final.mp4"
   
@@ -886,14 +886,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{park2025demodiffusiononeshothumanimitation,
-      title={DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy},
-      author={Sungjae Park and Homanga Bharadhwaj and Shubham Tulsiani},
-      year={2025},
-      eprint={2506.20668},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2506.20668},
+    <pre><code>@inproceedings{park2025demodiffusion,
+  title={DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy},
+  author={Park, Sungjae and Bharadhwaj, Homanga and Tulsiani, Shubham},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2026},
 }</code></pre>
   </div>
 </section>
@@ -903,16 +900,16 @@
     <h2 class="title">Acknowledgements</h2>
     We appreciate the helpful discussions with Yanbo Xu, Qitao Zhao, and Lucas Wu. 
     We would also like to thank Kenny Shaw, Tony Tao, Jiahui Yang, Andrew Wang, Jason Liu, Hengkai Pan, Mohan Kumar Srirama for helping setting up the hardware. 
-    This work was supported by gift awards from CISCO and Google.
+    This work was supported by gift awards from CISCO, Google, and NSF Award IIS-2442282.
   </div>
 </section>
 
 
-<footer class="footer">
+<footer class="footer" style="padding: 1rem 0;">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
-        <div class="content">
+        <div class="content has-text-centered">
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.

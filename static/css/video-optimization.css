@@ -78,3 +78,9 @@ video {
   display: block;
   margin: 0 auto;
 }
+
+/* Acknowledgements and footer keep white background */
+#Acknowledgements {
+  background-color: #ffffff !important;
+}
+
