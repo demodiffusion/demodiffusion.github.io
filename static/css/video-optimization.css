@@ -79,8 +79,13 @@ video {
   margin: 0 auto;
 }
 
-/* Acknowledgements and footer keep white background */
+/* BibTeX, Acknowledgements, and footer keep white background */
+#BibTeX,
 #Acknowledgements {
+  background-color: #ffffff !important;
+}
+
+footer.footer {
   background-color: #ffffff !important;
 }
 
