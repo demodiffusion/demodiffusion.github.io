@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadVideo(video) {
         if (video.dataset.loaded === 'true') return;
 
-        const source = video.querySelector('source');
+        var source = video.querySelector('source');
         if (source && source.dataset.src) {
             source.src = source.dataset.src;
             video.load();
@@ -11,44 +11,56 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function setupLazyLoading() {
-        const videos = document.querySelectorAll('video[data-lazy="true"]');
+    function loadAllVideosInSection(section) {
+        var videos = section.querySelectorAll('video[data-lazy="true"]');
+        videos.forEach(loadVideo);
+    }
 
-        const videoObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
+    function setupLazyLoading() {
+        var sections = document.querySelectorAll('.content');
+
+        var sectionObserver = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
                 if (entry.isIntersecting) {
-                    const video = entry.target;
-                    loadVideo(video);
-                    observer.unobserve(video);
+                    loadAllVideosInSection(entry.target);
+                    observer.unobserve(entry.target);
                 }
             });
         }, {
-            rootMargin: '50px 0px',
-            threshold: 0.1
+            rootMargin: '200px 0px',
+            threshold: 0.01
         });
 
-        videos.forEach(video => {
-            const source = video.querySelector('source');
-            if (source && source.src) {
-                source.dataset.src = source.src;
-                source.removeAttribute('src');
+        sections.forEach(function(section) {
+            if (section.querySelector('video[data-lazy="true"]')) {
+                var videos = section.querySelectorAll('video[data-lazy="true"]');
+                videos.forEach(function(video) {
+                    var source = video.querySelector('source');
+                    if (source && source.src) {
+                        source.dataset.src = source.src;
+                        source.removeAttribute('src');
+                    }
+                });
+                sectionObserver.observe(section);
             }
-            videoObserver.observe(video);
         });
     }
 
     function setupVideoPlayback() {
         document.addEventListener('click', function(e) {
-            const tab = e.target.closest('.tabs li');
+            var tab = e.target.closest('.tabs li');
             if (tab) {
-                setTimeout(() => {
-                    const activeContent = document.querySelector('.video-content.is-active');
-                    if (activeContent) {
-                        const videos = activeContent.querySelectorAll('video[data-lazy="true"]');
-                        videos.forEach(function(video) {
-                            loadVideo(video);
-                            video.play().catch(function() {});
-                        });
+                setTimeout(function() {
+                    var section = tab.closest('.content');
+                    if (section) {
+                        var activeContent = section.querySelector('.video-content.is-active');
+                        if (activeContent) {
+                            var videos = activeContent.querySelectorAll('video');
+                            videos.forEach(function(video) {
+                                loadVideo(video);
+                                video.play().catch(function() {});
+                            });
+                        }
                     }
                 }, 100);
             }
